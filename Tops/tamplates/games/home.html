@@ -1,0 +1,187 @@
+{% extends 'games/base.html' %}
+{% load static %}
+	{% block links %}
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="{% static 'games/css/style.css' %}">
+
+	{% endblock %}
+
+{% block title %} Подборка настолок {% endblock %}
+
+
+{% block content %}  
+  <div class="container header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Подборка настолок от Артёма Курганова</a>
+  </nav>
+</div>
+    
+<div class="grid">
+<div class="col mb-4">
+        <!-- Codenames done --->
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/codenames.jpg' %}" class="card-img-top" id="CN">
+  <div class="card-body">
+  <h5 class="card-title">Кодовые имена</h5>
+  </div>
+     
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 30 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 8 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 10+</li>
+  </ul>
+          <div class="card-body">
+     <a href="/codenames" class="card-link">Подробнее</a>
+     </div></div>
+</div>
+        <!-- Pandemic done --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/pandemic.png' %}" class="card-img-top img" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Пандемия</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 45 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 4 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 8+</li>
+  </ul>
+     <div class="card-body">
+     <a href="/pandemic" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+        <!-- Pluckin' Pairs done --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/Pluckin-pairs.jpg' %}" class="card-img-top" id="PP" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Пара Кур</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 30 мин</li>
+    <li class="list-group-item">Количество игроков: 3 - 8 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 12+</li>
+  </ul>
+     <div class="card-body">
+     <a href="/plunking-pairs" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+
+	        <!-- Cats --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/Cats.jpg' %}" id="EC" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Взрывные котята</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 20 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 5 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 7+</li>
+  </ul>
+     <div class="card-body">
+     <a href="/exploding-kittens" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+
+        <!-- Ticket To Ride done --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/TtR.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Билет на поезд</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 30 - 60 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 5 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 8+</li>
+  </ul>
+    <div class="card-body">
+    <a href="/ticket-to-ride" class="card-link">Подробнее</a>
+    </div>
+</div>
+    </div>
+        <!-- Stupid Casual --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/Stupid-Casual.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Имаджинариум</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 90 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 5 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 14+</li>
+  </ul>
+     <div class="card-body">
+     <a href="/stupid-casual" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+        <!-- Celestia --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/Celestia.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Селестия</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 30 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 6 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 8+</li>
+  </ul>
+    <div class="card-body">
+     <a href="/celestia" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+        <!-- Цитадели --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/citadels.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Цитадели</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 45 мин</li>
+    <li class="list-group-item">Количество игроков: 2 - 8 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 10+</li>
+  </ul>
+    <div class="card-body">
+     <a href="/citadels" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+        <!-- Spyfall --->
+<div class="col mb-4">
+<div class="card  h-100" style="width: 18rem;">
+  <img src="{% static 'games/title/Spyfall.jpg' %}" id="SF" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Находка для шпиона</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Время партии: 15 мин</li>
+    <li class="list-group-item">Количество игроков: 3 - 8 </li>
+    <li class="list-group-item">Рекомендуемый возраст: 13+</li>
+  </ul>
+    <div class="card-body">
+     <a href="/spyfall" class="card-link">Подробнее</a>
+     </div>
+</div>
+    </div>
+    
+    </div> 
+
+	<footer>
+		Здесь должна быть информация об авторстве, о партнерах, нужно продублировать контакты, оставить ссылки на социальные сети и другая информация о сайте. Но я оставлю только свой инстаграм. <br/>
+	<div class="social" id="">
+		<a href="https://www.instagram.com/kurg4ch/"><img src="{% static 'games/social/instagram.png' %}" alt="Мой инстаграм" class="social" id="instagram" 	></a>
+		<a href="https://github.com/Zemochka"><img src="{% static 'games/social/github.png' %}" alt="Мой инстаграм" class="social" id="github"></a>
+	</div>
+	</footer>
+
+ {% endblock %}

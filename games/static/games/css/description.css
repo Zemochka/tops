@@ -1,0 +1,53 @@
+.general{
+	margin: 10%;
+	margin-top: 5%; 	
+	padding: 5%;
+	background-color: #fff;
+	margin-bottom: 0%;
+}
+
+.grid{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 2fr;
+	margin-bottom: 10%;
+	margin-left: 0%;
+	grid-gap: 1%;
+}
+
+.headImg{
+	width: 100%;
+}
+
+.title{
+	font-size: 24pt;
+}
+
+.cost{
+	font-size: 16pt;
+}
+
+.header{
+	margin-left: 20%;
+}
+
+.head{
+	margin: 7%;
+}
+
+.description{
+	font-size: 15pt;
+}
+
+.contentImg{
+	margin-left: 15%;
+	width: 70%;
+}
+
+footer{
+	margin-top: 0%;
+}
+
+.caruselImg{
+	height: 50%;
+}
