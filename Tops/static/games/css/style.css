@@ -1,0 +1,50 @@
+.header{
+    margin-bottom: 3%;
+}
+
+.card-img-top{
+	width: 100%;
+}
+
+.card{
+    border: 10px solid;
+    border-radius: 10px;
+}
+
+.grid{
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto-fill, 600px);
+    grid-column-gap: 20%;
+    grid-row-gap: 1%;
+    margin-left: 10%;
+}
+
+#CN{
+    height: 50%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: #FFA03B;
+    margin-top: 10%; 
+    padding: 5% 5%;
+    margin-bottom: 0px;
+    font-size: 22pt;
+}
+
+.social{
+    margin-left: 80%;
+    width: 20%;
+    height: 20%;
+}
+
+#github{
+    margin-left: 2%;
+}
+
+#instagram{
+    margin-left: 2%;
+}

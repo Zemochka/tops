@@ -22,7 +22,7 @@ def ticketToRide(request):
     return render(request, 'games/TtR.html')
 
 def stupidCasual(request):
-    return render(request, 'games/stupid-Casual.html')
+    return render(request, 'games/stupid-casual.html')
 
 def celestia(request):
     return render(request, 'games/celestia.html')
